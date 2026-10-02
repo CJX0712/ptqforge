@@ -1,0 +1,6 @@
+# Locked, installable dependency set (handwritten `name==version`; no local paths).
+# Verified on Python 3.13 / Windows; CPU-only, no native compilation required.
+numpy==2.5.3
+pytest==8.3.4
+pytest-cov==6.0.0
+ruff==0.8.6

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+envs/
+
+# Caches / OS
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+
+# Data / model artifacts (must NOT be committed)
+*.onnx
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+data_cache/
+model_weights/
+
+# Local benchmark outputs (regenerable)
+benchmark*.json
+.coverage

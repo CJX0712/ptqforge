@@ -1,0 +1,15 @@
+{
+  "system": "PTQForge-backends",
+  "backends": {
+    "torch": {
+      "status": "skipped",
+      "reason": "not installed"
+    },
+    "onnxruntime": {
+      "status": "skipped",
+      "reason": "not installed"
+    }
+  },
+  "offline_fallback": "numpy Tier-1",
+  "numpy_path_exercised": true
+}
